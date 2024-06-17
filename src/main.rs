@@ -1,7 +1,7 @@
 use draw::App;
 use glutin_window::GlutinWindow as Window;
 use opengl_graphics::{GlGraphics, OpenGL};
-use piston::{window::WindowSettings, event_loop::{EventSettings, Events}, input::{RenderArgs, RenderEvent, UpdateArgs, UpdateEvent}};
+use piston::{window::WindowSettings, event_loop::{EventSettings, Events}, input::{RenderEvent, UpdateEvent}};
 
 mod draw;
 
